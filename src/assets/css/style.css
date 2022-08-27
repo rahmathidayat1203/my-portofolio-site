@@ -166,3 +166,23 @@ strong {
 .mobile-block {
   margin-left: 5px;
 }
+.image-carousel {
+  padding: 50px;
+}
+
+.carousel-container {
+  margin: 0 auto;
+  padding: 150px;
+  width: 80%;
+  height: 50%;
+}
+.slider-item-div {
+  padding: 50px;
+  background-color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.carousel-style {
+  height: 100% !important;
+}

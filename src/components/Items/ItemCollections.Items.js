@@ -3,6 +3,8 @@ import { faCode, faFileAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../../assets/css/style.css";
 import landing from "../../assets/images/landing-picture.svg";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 export const Navbars = (props) => {
   return (
     <>
@@ -67,6 +69,40 @@ export const Jumbotron = (props) => {
             </Col>
           </Row>
         </Container>
+      </div>
+    </>
+  );
+};
+
+export const Carousels = () => {
+  return (
+    <>
+      <div className="carousel">
+        <div className="carousel-container">
+          <Carousel autoPlay="true" infiniteLoop="true">
+            <div>
+              <img
+                src="https://yt3.ggpht.com/a/AATXAJwx-_ZnZdDNMMZc8EhFdOsjcPkVIgj89NK8CQ=s900-c-k-c0xffffffff-no-rj-mo"
+                alt="test"
+              />
+              <p className="legend">Legend 1</p>
+            </div>
+            <div>
+              <img
+                src="https://yt3.ggpht.com/a/AATXAJwx-_ZnZdDNMMZc8EhFdOsjcPkVIgj89NK8CQ=s900-c-k-c0xffffffff-no-rj-mo"
+                alt="test"
+              />
+              <p className="legend">Legend 2</p>
+            </div>
+            <div>
+              <img
+                src="https://yt3.ggpht.com/a/AATXAJwx-_ZnZdDNMMZc8EhFdOsjcPkVIgj89NK8CQ=s900-c-k-c0xffffffff-no-rj-mo"
+                alt="test"
+              />
+              <p className="legend">Legend 3</p>
+            </div>
+          </Carousel>
+        </div>
       </div>
     </>
   );
