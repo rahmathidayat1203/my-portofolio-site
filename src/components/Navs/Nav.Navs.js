@@ -4,7 +4,10 @@ import { Navbars } from "../Items/ItemCollections.Items";
 const NavbarLayout = () => {
   return (
     <Fragment>
-      <Navbars />
+      <Navbars
+        title="Rahmat Hidayat"
+        menus={["About", "Portofolio", "Contact"]}
+      />
     </Fragment>
   );
 };
