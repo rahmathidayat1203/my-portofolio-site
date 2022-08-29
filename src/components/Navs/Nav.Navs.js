@@ -6,7 +6,7 @@ const NavbarLayout = () => {
     <Fragment>
       <Navbars
         title="Rahmat Hidayat"
-        menus={["About", "Portofolio", "Contact"]}
+        menus={["About", "Projects", "Contact", "Resume"]}
       />
     </Fragment>
   );
